@@ -8,7 +8,7 @@
       <div class="h-16 w-64 bg-blue-400 lg:flex-square">B</div>
     </div>
   </div>
-  <div className="flex h-16 justify-center items-center">
+  <div className="mx-4 flex h-16 justify-center items-center">
     <div className="group text-xl">
       <strong className="group-hover:text-red-500">Hover on me </strong>
       <strong className="group-hover:text-green-500">the texts will be </strong>
@@ -16,7 +16,7 @@
     </div>
   </div>
   <div
-    class="h-16 w-16 m-8 animate-bounce md:animate-pulse rounded-full bg-gray-200"
+    class="h-16 w-16 m-8 animate-bounce md:animate-pulse lg:animate-ping rounded-full bg-gray-200"
   ></div>
 </template>
 
