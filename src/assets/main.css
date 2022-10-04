@@ -10,3 +10,10 @@
   position: relative;
   font-weight: normal;
 }
+
+/* @layer nest not necessary */
+@layer components {
+  .flex-square {
+    @apply flex justify-center items-center;
+  }
+}
